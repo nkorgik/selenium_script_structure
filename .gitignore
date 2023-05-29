@@ -1,0 +1,30 @@
+# Python specific
+*.pyc
+__pycache__/
+venv/
+*.egg-info/
+dist/
+build/
+.env
+
+# Selenium specific
+geckodriver.log
+geckodriver.log*
+
+# Aiogram specific
+.bot/
+
+# Docker specific
+.DS_Store
+docker-compose.yml
+docker-compose.yaml
+.dockerignore
+
+# Editors/IDEs specific
+.vscode/
+.idea/
+
+# Other common files
+logs/
+*.log
+*.swp
